@@ -5,4 +5,5 @@ import VitePluginGhPages from 'vite-plugin-gh-pages'
 
 export default defineConfig({
   plugins: [react(), windiCSS(), VitePluginGhPages],
+  base: '/url-shortening-app.github.io/'
 })
